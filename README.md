@@ -32,3 +32,20 @@ fun main(){
     println("Hello Kotlin")
 }
 ```
+
+#### Variable and Datatype declaration
+
+```kotlin
+// Mutable variable, these variables can be reassigned
+var name: String = "David"
+
+// Immutable variable, assigned once only variable | Local Read-Only variable
+val name2: String = "David"
+
+// Type referencing, implicit type cast
+var name = "David"
+
+// Kotlin default data types are non-nullable
+// To make it nullable, we need a null safe operator
+val name3: String? = null
+```
