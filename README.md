@@ -68,3 +68,19 @@ fun main(){
 }
 // answer: byebye David
 ```
+
+#### When() statements
+
+It is used like a switch case statement in Kotlin basis
+
+```kotlin
+var name = "david"
+var greeting = ""
+fun main() {
+	when(greeting){
+		"" -> println("hello") // if condition matches the string
+		else -> println("byebye") // default condition use else
+	}
+
+}
+```
