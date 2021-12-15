@@ -96,6 +96,20 @@ fun main() {
 		"" -> println("hello") // if condition matches the string
 		else -> println("byebye") // default condition use else
 	}
+}
+```
 
+The when() statement similar to the if-else, could be used in a variable to determine its value
+
+```kotlin
+val name = "David"
+var greeting: String? = null
+
+fun main(){
+	val hello = when(greeting){
+		null -> "hello"
+		else -> greeting
+	}
+	println(hello)
 }
 ```
