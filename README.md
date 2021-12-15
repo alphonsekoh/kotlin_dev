@@ -49,3 +49,22 @@ var name = "David"
 // To make it nullable, we need a null safe operator
 val name3: String? = null
 ```
+
+#### If-Else statements
+
+```kotlin
+var name = "David"
+val greeting: String? = null
+
+fun main(){
+	if(greeting != null){
+		println(greeting)
+	}
+	else{
+		println("byebye ")
+	}
+
+	println(name)
+}
+// answer: byebye David
+```
