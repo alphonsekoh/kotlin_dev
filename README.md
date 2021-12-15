@@ -52,6 +52,8 @@ val name3: String? = null
 
 #### If-Else statements
 
+Standard if-else statements in a function
+
 ```kotlin
 var name = "David"
 val greeting: String? = null
@@ -67,6 +69,19 @@ fun main(){
 	println(name)
 }
 // answer: byebye David
+```
+
+if- else statements used in a variable to determine the expression
+
+```kotlin
+val name = "David"
+var greeting: String? = null
+
+fun main(){
+	val hello = if(greeting != null) greeting else "hello"
+	println(hello)
+}
+
 ```
 
 #### When() statements
