@@ -113,3 +113,38 @@ fun main(){
 	println(hello)
 }
 ```
+
+### Function declaration
+
+Need to explicitly state return type
+
+```kotlin
+// return a string type
+fun getGreeting(): String{
+	return "Hello Kotlin"
+}
+
+fun getGreeting(): String?{
+	return null
+}
+
+// returning not useful data type
+fun sayHello(): Unit{
+	println(getGreeting())
+}
+
+// can be called this way as well
+fun sayHello(){
+	println(getGreeting())
+}
+```
+
+Single expression of function
+
+```kotlin
+fun getGreeting(): String = "Say Hello"
+
+// can also remove the explicit data type
+fun getGreeting() = "Say Hello"
+
+```
